@@ -1,11 +1,11 @@
 .logo{
     width: 300px;
     margin-top: -27px;
-    margin-left: 30rem;
+    margin-left: 29rem;
 }
 .welcome-heading{
     color: rgb(56, 45, 184);
-    margin-left: 30rem;
+    margin-left: 29rem;
     margin-top: -2rem;
     margin-bottom: 4rem;
     font-family: Arial, Helvetica, sans-serif;
@@ -26,6 +26,12 @@
     margin-left: 8rem;
     margin-top: 4rem;
 }
-.btn-outline-success{
-    margin-left: 15px;
+.btn.btn-danger.btn-lg{
+    margin-left: 29rem;
+    margin-top: 4rem;
+    padding: 20px 40px !important;
+    font-size: 30px !important;
+}
+.btn.btn-danger.btn-lg:hover{
+    background-color: rgb(120, 1, 1);
 }
