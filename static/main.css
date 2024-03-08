@@ -1,0 +1,31 @@
+.logo{
+    width: 300px;
+    margin-top: -27px;
+    margin-left: 30rem;
+}
+.welcome-heading{
+    color: rgb(56, 45, 184);
+    margin-left: 30rem;
+    margin-top: -2rem;
+    margin-bottom: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.welcome-heading h3{
+    font-size: 40px;
+    font-weight: 500;
+}
+.welcome-note{
+    font-size: 25px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    margin-top: -20px;
+}
+.add-member{
+    margin-left: 8rem;
+    margin-top: 4rem;
+}
+.btn-outline-success{
+    margin-left: 15px;
+}
