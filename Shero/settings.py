@@ -125,3 +125,13 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static_root')
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+AUTHENTICATION_BACKENDS = [
+    'UI.emailbackend.EmailBackend',
+    'django.contrib.auth.backends.ModelBackend',
+]
+
+
+api_key = '8cb67d6bfab14d96b269cff7e6b53f40';
+api_url = 'https://ipgeolocation.abstractapi.com/v1/?api_key=' + api_key
